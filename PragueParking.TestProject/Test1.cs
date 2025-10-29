@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PragueParking.Domain;
-using System;
+﻿using PragueParking.Domain;
 
 namespace PragueParking.Tests
 {
