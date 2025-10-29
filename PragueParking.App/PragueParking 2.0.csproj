@@ -8,8 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Spectre.Console" Version="0.53.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\PragueParking.Data\PragueParking.Data.csproj" />
     <ProjectReference Include="..\PragueParking.Domain\PragueParking.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TextFile1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,7 @@
+﻿{
+  "Capacity": 100,
+  "PricePerHourCar": 20,
+  "PricePerHourMc": 10,
+  "FreeMinutes": 10,
+  "SpotMaxUnits" : 2
+}
