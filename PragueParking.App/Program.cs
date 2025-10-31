@@ -174,8 +174,8 @@ static void ShowMap(PragueParking.Domain.ParkingGarage garage)
         }
         else
         {
-            // MC: 1 eller 2?
-            int mc = spot.Vehicles.Count; // i din modell får bara MC dela
+            
+            int mc = spot.Vehicles.Count; 
             if (mc == 1)
             {
                 color = "yellow";
